@@ -47,6 +47,7 @@ namespace Asteroids
             }
         }
 
+
         private void OnCollisionEnter(Collision other)
         {
             if (_hp <= 0)

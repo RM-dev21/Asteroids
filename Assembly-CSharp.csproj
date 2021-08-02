@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{70261382-45EB-0236-7EA2-855FCD841B8F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -56,33 +57,33 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Platform\Platform.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\PCWindow.cs" />
     <Compile Include="Assets\_Scripts\Asteroids\IMove.cs" />
     <Compile Include="Assets\_Scripts\Asteroids\Player.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\Ship.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\AccelerationMove.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\RotationShip.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\MoveTransform.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\IRotation.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\GameStarter.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\Enemy.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\Asteroid.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\Health.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids\IEnemyFactory.cs" />
     <Compile Include="Assets\_Scripts\Asteroids\AsteroidFactory.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\IInput.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\ConsoleInput.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\PCInput.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\InputFactory.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\Window.cs" />
     <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\IWindow.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\ConsoleWindow.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\PCWindow.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\Ship.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\IEnemyFactory.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\Enemy.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Object_Pool\NameManager.cs" />
     <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\WindowFactory.cs" />
     <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Platform\IPlatform.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Platform\Platform.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Platform\PlatformFactory.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\Window.cs" />
-    <Compile Include="Assets\_Scripts\Asteroids.Object_Pool\NameManager.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\AccelerationMove.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\InputFactory.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\ConsoleInput.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Window\ConsoleWindow.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\Asteroid.cs" />
     <Compile Include="Assets\_Scripts\Asteroids.Object_Pool\EnemyPool.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\RotationShip.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\MoveTransform.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\PCInput.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\GameStarter.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\IRotation.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Platform\PlatformFactory.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids\Health.cs" />
+    <Compile Include="Assets\_Scripts\Asteroids.Abstract_Factory\Input\IInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
